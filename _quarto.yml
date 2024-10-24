@@ -1,15 +1,18 @@
 project:
   type: website
-  output-dir: docs  # Place this under the project key, not website
+  output-dir: docs  # Ensure output is set to 'docs' for GitHub Pages
 
 website:
-  title: "My Quarto Blog"
-  description: "A blog powered by Quarto and hosted on GitHub Pages"
+  title: "Rachel Swallow"
+  description: "A place where I organize my thoughts"
   navbar:
     right:
-      - about.html
-
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd  # Link to your About page
+  
 format:
   html:
-    theme: cosmo
+    theme: simplex
     toc: true

@@ -1,11 +1,11 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+author: "Rachel Swallow"
 date: "2024-10-21"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+The purpose of this is to organize brain to helps me synthesize my own ideas. One of the tests of whether you understand something is whether you can explain it to someone else. A blog post is a great way to do that.
 
 ![](thumbnail.jpg)
 
