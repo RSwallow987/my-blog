@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs  # Place this under the project key, not website
 
 website:
   title: "My Quarto Blog"
@@ -7,7 +8,6 @@ website:
   navbar:
     right:
       - about.html
-  output-dir: docs  # Ensure output is set to 'docs' for GitHub Pages
 
 format:
   html:
